@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import PokemonContainer from './container/PokemonContainer.js';
+import CardContainer from './container/CardContainer.js';
 
 class App extends Component {
   render() {
     return (
-      <PokemonContainer />
+      <CardContainer />
     );
   }
 }
